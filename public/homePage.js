@@ -53,7 +53,6 @@ ApiConnector.getFavorites((responce) => {
 });
 
 function func2(responce) {
-  debugger
   if (responce.success) {
     favoritesWidget.clearTable();
     favoritesWidget.fillTable(responce.data);
